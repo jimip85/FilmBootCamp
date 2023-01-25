@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/jpfavicon.png">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Manage Landing Page</title>
+</head>
+
+<body class='bg-gradient-to-r from-slate-700'>
+    <!-- Navbar-->
+    <nav class="mx-auto p-6">
+        <!-- Flex container-->
+        <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <div class="flex items-center font-sans text-2xl hover:text-3xl font-bold">
+                <img class="rounded-xl" src="img/jplogo.JPG" alt="JP Productions Logo" width="70px" height="70px" />
+                <div class="ml-2">
+                    <h1>Filmmaker</h1>
+                    <h1>Academy</h1>
+                </div>
+            </div>
+            <!--Menu Items-->
+            <div class="hidden md:flex space-x-8 px-2 text-xl">
+                <a hred="#" class="font-bold hover:text-2xl hover:underline underline-offset-8">Pricing</a>
+                <a hred="#" class="font-bold hover:text-2xl hover:underline underline-offset-8">Product</a>
+                <a hred="#" class="font-bold hover:text-2xl hover:underline underline-offset-8">About Us</a>
+                <a hred="#" class="font-bold hover:text-2xl hover:underline underline-offset-8">Careers</a>
+                <a hred="#" class="font-bold hover:text-2xl hover:underline underline-offset-8">Community</a>
+            </div>
+            <!--Button-->
+            <a href="#"
+                class="font-semibold text-xl p-4 px-8 pt-4 hidden text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">Join!</a>
+            
+                <!--Hamburger Icon-->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+        <!--Mobile Menu-->
+        <div class="md:hidden">
+            <div id="menu"
+                class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a class="font-bold hover:text-xl hover:underline underline-offset-8" hred="#">Pricing</a>
+                <a class="font-bold hover:text-xl hover:underline underline-offset-8" hred="#">Product</a>
+                <a class="font-bold hover:text-xl hover:underline underline-offset-8" hred="#">About Us</a>
+                <a class="font-bold hover:text-xl hover:underline underline-offset-8" hred="#">Careers</a>
+                <a class="font-bold hover:text-xl hover:underline underline-offset-8" hred="#">Community</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <section id="hero">
+        <!--Grid Container-->
+        <!--<div class="container grid grid-cols-2 items-center px-7 mx-auto mt-10 md:space-y-0 md:flex-row bg-brightRedLight">-->
+        <div class="grid grid-cols-1 items-center px-7 mx-auto mt-10 md:space-y-0 md:grid-cols-2">
+            <!--Left item-->
+            <div class="flex flex-col mb-12 space-y-12">
+                <h1 class="text-3xl font-bold text-center md:text-5xl">
+                    Bringing your vision to life: Filmmaker Academy</h1>
+                <p class=" text-center text-xl hover:text-white px-5"> Unlock the secrets of storytelling and bring your
+                    vision to life with our Filmmaking Bootcamp. Learn the ins and outs of pre-production,
+                    cinematography, editing, and post-production while working on real-world projects. Develop the
+                    skills and knowledge you need to take your filmmaking to the next level.</p>
+                <div class="flex justify-center"><a href="#"
+                        class="font-semibold text-lg p-6 px-12 pt-4 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Join
+                        Today!</a></div>
+            </div>
+            <!-- Right item-->
+            <div class="flex flex-col mb-12 space-y-12 px-6">
+                <h1 class="text-3xl font-bold text-center md:text-5xl">Student Short Films:</h1>
+                <iframe class='w-full aspect-video rounded-xl' src="https://www.youtube.com/embed/6M0PhFeOZxk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <iframe class='w-full aspect-video rounded-xl' src="https://www.youtube.com/embed/RnC6XxEsXKg"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonial Section-->
+    <section id="testimonials">
+        <!--Grid Container-->
+        <h1 class="text-3xl font-bold text-center mb-12 md:mt-12 md:text-5xl">
+            Testimonials:</h1>
+        <div
+            class="container grid grid-cols-1 items-start px-7 mx-auto mt-12 md:space-y-0 md:grid-cols-3 hover:bg-gradient-to-r hover:rounded-xl">
+            <!--Left item-->
+            <div class="flex flex-col mb-12 mx-4 space-y-6 bg-slate-700 border-8 rounded-md p-4 text-white">
+                <div class="flex items-center">
+                    <img class="rounded-full hover:w-20 hover:h-20" src="img/medley.jpg" alt="Medley" width="70px"
+                        height="70px" />
+                    <div class="p-4 text-lg">
+                        <h1><strong>Medley James</strong></h1>
+                        <p><em>March 1st, 2022</em></p>
+                    </div>
+                </div>
+                <p>"The film bootcamp was a life-changing experience for me. Not only did I learn the technical aspects
+                    of filmmaking, but I also gained a greater appreciation for the art form. The instructors were
+                    passionate, experienced, and always willing to go the extra mile to help us succeed. The hands-on
+                    approach allowed me to apply what I learned in class to real-world scenarios. I also appreciated the
+                    networking opportunities provided which helped me to connect with industry professionals. I highly
+                    recommend this bootcamp to anyone looking to take their filmmaking skills to the next level."</p>
+            </div>
+            <!--Center item-->
+            <div class="flex flex-col mb-12 mx-4 space-y-6 bg-brightRed border-8 rounded-md p-4 text-white">
+                <div class="flex items-center">
+                    <img class="rounded-full hover:w-20 hover:h-20" src="img/carlos.jpg" alt="Carlos"
+                        width="70px" height="70px" />
+                    <div class="p-4 text-lg">
+                        <h1><strong>Carlos Hitchcock</strong></h1>
+                        <p><em>January 29th, 2021</em></p>
+                    </div>
+                </div>
+                <p>"I highly recommend the film bootcamp. The instructors are incredibly knowledgeable and provide
+                    hands-on training that helped me develop my skills and gain a deeper understanding of the film
+                    industry. The course material was challenging but very rewarding. The opportunities to network with
+                    other students and professionals in the field were invaluable. I left the bootcamp feeling confident
+                    in my abilities and excited to pursue my career in film."</p>
+            </div>
+            <!--Right item-->
+            <div class="flex flex-col mb-12 mx-4 space-y-6 bg-slate-700 border-8 rounded-md p-4 text-white">
+                <div class="flex items-center">
+                    <img class="rounded-full hover:w-20 hover:h-20" src="img/sunny.jpg" alt="Sunny"
+                        width="70px" height="70px" />
+                    <div class="p-4 text-lg">
+                        <h1><strong>Sunny Hunch</strong></h1>
+                        <p><em>November 12th, 2022</em></p>
+                    </div>
+                </div>
+                <p>"Attending the film bootcamp was an incredible experience for me. The instructors were top-notch,
+                    providing both theoretical and practical knowledge on all aspects of filmmaking. The coursework was
+                    challenging but extremely rewarding and gave me a solid foundation in the industry. The networking
+                    opportunities were also invaluable, I was able to
+                    connect with professionals in the industry which helped me to kickstart my career. I would highly
+                    recommend this bootcamp to anyone looking to break into the film industry."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer-->
+    <footer class="mx-auto p-6 mt-12 bg-black text-white">Copyright &copy; 2023, All Rights Reserved </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
